@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+}
