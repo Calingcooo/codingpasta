@@ -111,11 +111,13 @@
 a.nav-link{
     color: white!important;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
 
 a.nav-link:hover {
     border-bottom: 2px solid #FFFFFF;
-    color: black!important;
+    color: rgba(232, 33, 33, 1)!important;
     transition: 0.5s;
 }
 
@@ -125,10 +127,22 @@ a.dropdown-item {
 
 ul.dropdown-menu.show {
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .navbar-nav {
-    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
+
+@media screen and (min-width: 992px) {
+    ul.dropdown-menu.show {
+        display: flex;
+        flex-direction: column;
+    }
+  }
 
 /*END OF NAVBAR DESIGN*/
