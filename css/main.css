@@ -14,6 +14,11 @@ html {
     padding: 0;
 }
 
+.main-container {
+    padding: 0;
+    margin: 0;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -28,22 +33,27 @@ html {
     background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
 }
 
-.login-div a > .register {
-    border: 1px solid white;
-}
-
 .login-div a {
     text-decoration: none;
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
-.login-div a:hover {
-    background-color: white;
+.login-div a.register {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login-div a.register:hover {
+    background-color: red;
     color: black;
+}
+
+.login-div a.login:hover {
+    color: red;
 }
 
 .landing {
@@ -129,6 +139,35 @@ html {
     fill: #FFFFFF;
 }
 
+.language {
+    height: 200px;
+    color: white;
+    font-size: 80px;
+    font-family: "Popppins", sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#html {
+    height: 200px;
+    padding: 5px;
+    background-color: beige;
+    border-radius: 10px;
+    font-family: "Popppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 
 /* START OF FOOTER */
 
@@ -141,12 +180,12 @@ html {
 }
 
 .footer h6 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .footer a {
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.8em;
     color: black;
     font-family: "Poppins", sans-serif;
 }
