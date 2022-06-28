@@ -24,38 +24,7 @@ html {
     margin: 0;
 }
 
-.login-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    padding: 5px;
-    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
-}
-
-.login-div a {
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    color: white;
-    padding: 5px;
-}
-
-.login-div a.register {
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.login-div a.register:hover {
-    background-color: red;
-    color: black;
-}
-
-.login-div a.login:hover {
-    color: red;
-}
-
+/* FIRST SECTION DESIGN */
 .landing {
     position: relative;
     min-height: 80vh;
@@ -91,12 +60,15 @@ html {
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
-
+    background-color: #8b0000;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
 }
 
 .buttons button:hover {
-    background-color: transparent;
-    color: #FFFFFF;
+    background-color: white;
+    color: black;
     padding: 30px;
 }
 
@@ -139,33 +111,110 @@ html {
     fill: #FFFFFF;
 }
 
+
+/* SECOND SECTION DESIGN */
+.heading {
+    color: white!important;
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+}
+
+
+.btn-html {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff7f7f;
+    width: 50%;
+}
+
+.btn-css {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    background-color: #1ecbe1;
+    width: 50%;
+}
+
+.btn-js {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F4EA56;
+    width: 50%;
+}
+
+.btn-html:hover {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.btn-css:hover {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.btn-js:hover {
+    width: 100%;
+    transition: 0.5s;
+}
+
 .language {
     height: 200px;
     color: white;
-    font-size: 80px;
+    font-size: 3.5em;
     font-family: "Popppins", sans-serif;
     font-weight: 500;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 5px;
 }
 
-#html {
+#language-text {
     height: 200px;
-    padding: 5px;
+    padding: 15px;
     background-color: beige;
-    border-radius: 10px;
     font-family: "Popppins", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
 }
 
+@media screen and (max-width: 990px) {
+    .language {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    #language-text {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 5px;
+    }
+}
 
+/* THIRD SECTION DESIGN */
 
+.third-section {
+    background-color: azure;
+    font-family: "Poppins", sans-serif;
+    word-wrap: break-word;
+}
 
+.third-section-header {
+    font-size: 3em;
+}
 
+.third-section-text {
+    font-size: 1em;
+}
 
 
 
@@ -206,13 +255,45 @@ html {
 
 /*START OF NAVBAR DESIGN*/
 
+.login-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
+}
+
+.login-div a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+}
+
+.login-div a.register {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login-div a.register:hover {
+    background-color: red;
+    color: black;
+}
+
+.login-div a.login:hover {
+    color: red;
+}
+
+
 
 .navbar {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
-    ;
 }
 
 a.nav-link {
