@@ -4,10 +4,6 @@
 
 
 
-
-
-
-
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -18,7 +14,6 @@
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    padding: 5px;
     background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
 }
 
