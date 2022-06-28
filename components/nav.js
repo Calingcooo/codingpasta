@@ -5,11 +5,10 @@ customElements.define( 'nav-bar', class extends HTMLElement {
             .innerHTML = `
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-            <link rel="stylesheet" href="./css/navbar.css">    
-                <slot name="dropdown"></slot>`
+                <slot name="navBar"></slot>`
     }
     connectedCallback() {
-        this.innerHTML = `<section slot="dropdown">        
+        this.innerHTML = `<section slot="navBar">        
         <div class="container-fluid p-0">
             <div class="login-div">
                 <a class="login" href="#">Login</a>

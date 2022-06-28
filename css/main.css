@@ -35,7 +35,7 @@ html {
 }
 
 .first-section h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     font-family: "Poppins", sans-serif;
     font-weight: 350;
     color: white;
@@ -110,7 +110,7 @@ html {
 
 /* SECOND SECTION DESIGN */
 .heading {
-    color: white!important;
+    color: white !important;
     font-family: "Poppins", sans-serif;
     font-size: 2em;
 }
@@ -123,6 +123,7 @@ html {
     font-family: "Poppins", sans-serif;
     background-color: #ff7f7f;
     width: 50%;
+    margin-top: 10px;
 }
 
 .btn-css {
@@ -132,6 +133,7 @@ html {
     font-family: "Poppins", sans-serif;
     background-color: #1ecbe1;
     width: 50%;
+    margin-top: 10px;
 }
 
 .btn-js {
@@ -141,6 +143,7 @@ html {
     font-family: "Poppins", sans-serif;
     background-color: #F4EA56;
     width: 50%;
+    margin-top: 10px;
 }
 
 .btn-html:hover {
@@ -189,11 +192,43 @@ html {
         border-bottom-left-radius: 5px;
         border-top-left-radius: 5px;
     }
+
     #language-text {
         border-top-right-radius: 5px;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 5px;
     }
+
+    .btn-html {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .btn-html:hover {
+        opacity: 0.5;
+        width: 100%;
+
+    }
+
+    .btn-css {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .btn-css:hover {
+        opacity: 0.5;
+
+    }
+
+    .btn-js {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .btn-js:hover {
+        opacity: 0.5;
+    }
+
 }
 
 /* THIRD SECTION DESIGN */
@@ -211,41 +246,6 @@ html {
 .third-section-text {
     font-size: 1em;
 }
-
-
-
-/* START OF FOOTER */
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background-color: #ebebe7;
-}
-
-.footer h6 {
-    font-size: 1em;
-}
-
-.footer a {
-    text-decoration: none;
-    font-size: 0.8em;
-    color: black;
-    font-family: "Poppins", sans-serif;
-}
-
-.footer i {
-    color: black;
-    padding: 5px;
-}
-
-.footer a:hover {
-    color: red;
-    cursor: pointer;
-}
-
-/* END OF FOOTER */
 
 
 
@@ -298,7 +298,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    border-bottom: 2px solid #FFFFFF;
+    text-decoration: underline;
     color: rgba(232, 33, 33, 1) !important;
     transition: 0.5s;
 }
@@ -328,3 +328,45 @@ ul.dropdown-menu.show {
 }
 
 /*END OF NAVBAR DESIGN*/
+
+
+
+/* START OF FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #ebebe7;
+}
+
+.footer h6 {
+    font-size: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer i {
+    color: black;
+    padding: 5px;
+}
+
+.footer a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.footer-mission {
+    align-items: center;
+}
+
+/* END OF FOOTER */
+
+
+
