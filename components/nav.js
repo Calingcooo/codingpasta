@@ -29,7 +29,7 @@ customElements.define( 'nav-bar', class extends HTMLElement {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Html</a>
+                                <a class="nav-link" href="./html.html">Html</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CSS</a>
