@@ -14,6 +14,8 @@ html {
     padding: 0;
 }
 
+
+/* LANDING PAGE DESIGN */
 .main-container {
     padding: 0;
     margin: 0;
@@ -248,125 +250,15 @@ html {
 }
 
 
+/* END OF LANDING PAGE DESIGN */
 
-/*START OF NAVBAR DESIGN*/
 
-.login-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    padding: 5px;
-    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
+
+
+
+
+/* START OF HTML PAGE DESIGN */
+
+.html-container {
+    height: 100vh;
 }
-
-.login-div a {
-    text-decoration: none;
-    font-size: 1em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    color: white;
-    padding: 5px;
-}
-
-.login-div a.register {
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.login-div a.register:hover {
-    background-color: red;
-    color: black;
-}
-
-.login-div a.login:hover {
-    color: red;
-}
-
-.navbar {
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
-}
-
-a.nav-link {
-    color: white !important;
-    font-size: 1.2em;
-    display: flex;
-    justify-content: center;
-}
-
-a.nav-link:hover {
-    text-decoration: underline;
-    color: rgba(232, 33, 33, 1) !important;
-    transition: 0.5s;
-}
-
-a.dropdown-item {
-    color: black;
-}
-
-ul.dropdown-menu.show {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-
-@media screen and (min-width: 992px) {
-    ul.dropdown-menu.show {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-/*END OF NAVBAR DESIGN*/
-
-
-
-/* START OF FOOTER */
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background-color: #ebebe7;
-}
-
-.footer h6 {
-    font-size: 1em;
-}
-
-.footer a {
-    text-decoration: none;
-    font-size: 0.8em;
-    color: black;
-    font-family: "Poppins", sans-serif;
-}
-
-.footer i {
-    color: black;
-    padding: 5px;
-}
-
-.footer a:hover {
-    color: red;
-    cursor: pointer;
-}
-
-.footer-mission {
-    align-items: center;
-}
-
-/* END OF FOOTER */
-
-
-

@@ -18,7 +18,7 @@ customElements.define( 'nav-bar', class extends HTMLElement {
          <nav class="navbar navbar-expand-lg navbar-light p-2 sticky-top">
                 <div class="container-fluid nav">
         <!-- LOGO -->
-        <a class="navbar-brand" href="#"><img src="#"></a>
+        <a class="navbar-brand" href="./index.html"><img src="#"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -32,10 +32,10 @@ customElements.define( 'nav-bar', class extends HTMLElement {
                                 <a class="nav-link" href="./html.html">Html</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CSS</a>
+                                <a class="nav-link" href="./css.html">CSS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">JavaScript</a>
+                                <a class="nav-link" href="./js.html">JavaScript</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -43,7 +43,7 @@ customElements.define( 'nav-bar', class extends HTMLElement {
                                     Frameworks
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                                    <li><a class="dropdown-item" href="./bootstrap.html">Bootstrap</a></li>
                                     <li>
                                         <span class="d-inline-block" tabindex="0" data-toggle="tooltip"
                                             title="Coming Soon!">

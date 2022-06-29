@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Roboto&display=swap');
+
+
+/* START OF FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #ebebe7;
+}
+
+.footer h6 {
+    font-size: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer i {
+    color: black;
+    padding: 5px;
+}
+
+.footer a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.footer-mission {
+    align-items: center;
+}
+
+/* END OF FOOTER */

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Roboto&display=swap');
+
+
+
+
+/*START OF NAVBAR DESIGN*/
+
+.login-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
+}
+
+.login-div a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+}
+
+.login-div a.register {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login-div a.register:hover {
+    background-color: red;
+    color: black;
+}
+
+.login-div a.login:hover {
+    color: red;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);
+}
+
+a.nav-link {
+    color: white !important;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+
+a.nav-link:focus, a.nav-link:hover {
+    text-decoration: underline;
+    color: rgba(232, 33, 33, 1) !important;
+    transition: 0.5s;
+}
+
+a.dropdown-item {
+    color: black;
+}
+
+ul.dropdown-menu.show {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (min-width: 992px) {
+    ul.dropdown-menu.show {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*END OF NAVBAR DESIGN*/
