@@ -20,7 +20,9 @@ class Header extends HTMLElement {
         super();
     }
     connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'open' });
+        const shadowRoot = this.attachShadow({
+            mode: 'open'
+        });
         shadowRoot.appendChild(sideNavTemplate.content);
     }
 }

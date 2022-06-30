@@ -1,11 +1,8 @@
-function sideNav(elem) {
-    // Clear any currently open menu
-    var openMenu = document.getElementById("sideNav");
-    if (openMenu) {
-      openMenu.removeAttribute("id");
-      // Stop if we're just closing the current menu
-      if (openMenu === elem) {
-        return;
-      }
-    }
+// SIDENAV OPEN AND CLOSE FUNCTION
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
 }

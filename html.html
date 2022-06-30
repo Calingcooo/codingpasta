@@ -20,21 +20,21 @@
 </head>
 
 <body>
-    <nav-bar></nav-bar>
+   
     <div class="html-container">
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <nav-bar></nav-bar>
+        <div class="sideNavContainer sticky-top">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <h1 class="sideNavHeader text-center">HTML Tutorial</h1>
+                
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <span style="cursor: pointer; color: Black; font-size: 1em; font-weight: 400;" onclick="openNav()"> Menu</span>
+        </div>
     </div>
 
 
@@ -55,8 +55,8 @@
 
 
 
-
     <my-footer></my-footer>
+    
 
     <script src="components/footer.js"></script>
     <script src="js/main.js"></script>
