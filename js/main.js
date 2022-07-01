@@ -1,7 +1,7 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-  document.querySelector(".sideBar").classList.toggle("show");
+  document.querySelector(".sideBar").classList.toggle("navShow");
 }
 
 // Close the dropdown if the user clicks outside of it

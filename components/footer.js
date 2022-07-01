@@ -29,7 +29,7 @@ customElements.define( 'my-footer', class extends HTMLElement {
                 <hr/>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <span class="footer-mission">This website was made to help career shifters and
+                        <span class="footer-mission">Coding Pasta was made to help career shifters and
                             those who has no programming backgrounds but passionate
                             about learning web development.</span>
                     </div>
