@@ -3,66 +3,52 @@
 
 
 
-
-
-.sideBarContainer {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Poppins", sans-serif;
 }
-.sidenav {
+
+.htmlContainer {
+  margin-bottom: 20px;
+}
+
+.sideBarToggler {
+  padding: 10px;
+}
+
+@media screen and (min-width: 950px) {
+  .sideBarToggler {
+    display: none;
+  }
+}
+
+.sideBar {
+  display: block;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 20%;
+  min-width: 250px;
   height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background: linear-gradient(90deg, rgba(232, 33, 33, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(255, 0, 0, 0.47102591036414565) 100%);;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 30px;
+  overflow-y: scroll;
+  color: black;
+  padding: 10px;
 }
 
-.sidenav span {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 25px;
-  color: white;
+.sideBarContent a {
   display: block;
-  transition: 0.3s;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+  font-size: 1em;
   text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
+  color: black;
 }
 
-.sidenav a:focus, .sidenav a:hover {
+.sideBarContent a:hover, .sideBarContent a:focus  {
+  background-color: aliceblue;
   color: red;
-  border-right: 5px solid red;
+  border-right: 3px solid red;
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding-left: 16px;
-  padding-top: 10px;
-  background-color: #ebebe7;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.show {
+  display: none;
 }
