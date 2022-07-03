@@ -1,19 +1,22 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.querySelector(".sideBar").classList.toggle("navShow");
+// DISPLAY SIDEBAR ON BUTTON CLICK
+function showSideBar() {
+  document.querySelector(".sideBar").style.display = "block";
+}
+// HIDE SIDEBAR ON BUTTON CLICK
+function hideSideBar() {
+  document.querySelector(".sideBar").style.display = "none";
 }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+
+let sideBar = document.querySelector('.sideBar');
+let winSize = window.matchMedia("(min-width: 950px)")
+
+
+function defaultSideBar() {
+  if(winSize.matches) { // IF WINDOW SIZE IS HIGHER THAN 950PX
+    sideBar.style.display = "block"; // CHANGE DISPLAY TO BLOCK
   }
 }
+
+defaultSideBar(winSize);
+winSize.addListener(defaultSideBar);

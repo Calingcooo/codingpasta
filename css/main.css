@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Roboto&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,6 +10,7 @@
 html {
     margin: 0;
     padding: 0;
+    letter-spacing: 1.5px;
 }
 
 
@@ -260,6 +259,105 @@ html {
 
 /* START OF HTML PAGE DESIGN */
 
-.html-container {
-    height: 100vh;
+
+
+/* HTML TUTORIAL DESIGN */
+
+.htmlContainer {
+    position: relative;
+    font-family: "Lato", sans-serif;
+}
+
+.home-content {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.home-panel {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 950px) {
+    .home-panel {
+        text-align: center;
+    }
+}
+
+.home-panel a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    background-color: #ff7f7f;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.home-panel a:hover {
+    color: white;
+}
+
+/* PAGE NAVIGATION DESIGN */
+
+.pagination {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: #ff7f7f;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+/* HTML INTRO CONTENT*/
+
+.intro-header {
+    padding: 15px;
+}
+.intro-pagination {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.intro-pagination a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    background-color: #ff7f7f;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.intro-panel {
+    padding: 15px;
+    border-bottom: 1px solid rgb(177, 175, 175);
+    border-top: 1px solid rgb(177, 175, 175);
+    margin-bottom: 10px;
+}
+
+.intro-html {
+    padding: 15px;
+    border-bottom: 1px solid rgb(177, 175, 175);
 }
