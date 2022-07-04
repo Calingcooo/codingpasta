@@ -20,63 +20,75 @@ customElements.define('side-nav', class extends HTMLElement {
                     <h1>HTML Tutorial</h1>
                 </div>
                 <div class="sideBarContent">
-                    <a href="#">HTML Introduction</a>
-                    <a href="#">HTML Editors</a>
-                    <a href="#">HTML Basic</a>
-                    <a href="#">HTML Elements</a>
-                    <a href="#">HTML Attributes</a>
-                    <a href="#">HTML Headings</a>
-                    <a href="#">HTML Paragraphs</a>
-                    <a href="#">HTML Styles</a>
-                    <a href="#">HTML Formatting</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Comments</a>
-                    <a href="#">HTML Colors</a>
-                    <ul>
-                        <li>RGB</li>
-                        <li>HEX</li>
-                        <li>HSL</li>
-                    </ul>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
-                    <a href="#">HTML Quotation</a>
+                    <a href="./html-introduction.html">HTML Introduction</a>
+                    <a href="./html-editors.html">HTML Editors</a>
+                    <a href="./html-basic.html">HTML Basic</a>
+                    <a href="./html-elements.html">HTML Elements</a>
+                    <a href="./html-attributes.html">HTML Attributes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Quotation</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Headings</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Paragraphs</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Styles</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Formatting</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Quotations</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Comments</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Colors</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML CSS</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Links</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Images</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Favicon</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Tables</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML List</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Block & Inline</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Classes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML ID</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Iframes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML JavaScript</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML File Paths</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Head</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Layout</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Responsive</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Computer Code</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Semantics</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Style Guide</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Entities</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Symbols</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Emojis</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML URL Encode</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML vs XML</a>
 
-
+                    <br/>
                     <!-- HTML FORMS -->
                     <h3 class="title">HTML Forms</h3>
                     <a href="#">HTML Forms</a>

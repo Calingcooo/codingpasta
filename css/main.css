@@ -335,7 +335,6 @@ html {
 .intro-pagination {
     display: flex;
     justify-content: space-between;
-
 }
 
 .intro-pagination a {
@@ -357,12 +356,57 @@ html {
     margin-bottom: 10px;
 }
 
-.intro-html {
+.intro-html, .intro-example, .intro-element  {
     padding: 15px;
     border-bottom: 1px solid rgb(177, 175, 175);
 }
 
-.intro-example {
-    padding: 15px;
-    border-bottom: 1px solid rgb(177, 175, 175);
+.intro-element img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#note {
+    background-color: beige;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.web-browser {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
+.web-browser img {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+.page-structure {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
+.page-structure img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* HTML EDITOR CONTENT */
+
+.editor-header {
+    margin-bottom: 10px;
+}
+
+.editor-panel {
+    border-top: 1px solid rgb(177, 175, 175);
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
+.editor-html {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
