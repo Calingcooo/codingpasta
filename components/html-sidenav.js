@@ -11,7 +11,7 @@ customElements.define('side-nav', class extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `<section slot="sideNav">        
-        <div class="sideBarToggler sticky-top">
+        <div class="sideBarToggler">
             <button class="dropbtn" onclick="showSideBar()">Show Sidebar</button>
             <button class="dropbtn" onclick="hideSideBar()">hide Sidebar</button>
         </div>
@@ -20,7 +20,7 @@ customElements.define('side-nav', class extends HTMLElement {
                     <h1>HTML Tutorial</h1>
                 </div>
                 <div class="sideBarContent">
-                    <a href="./html-introduction.html">HTML Introduction</a>
+                    <a class="active" href="./html-introduction.html">HTML Introduction</a>
                     <a href="./html-editors.html">HTML Editors</a>
                     <a href="./html-basic.html">HTML Basic</a>
                     <a href="./html-elements.html">HTML Elements</a>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="components/nav.js"></script>
+    <script src="components/html-sidenav.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/navbar.css">
+    <link rel="stylesheet" href="css/components/sidenav.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+
+    <title>HTML Basic | Coding Pasta</title>
+</head>
+
+<body>
+    <!-- NAV-BAR -->
+    <nav-bar></nav-bar>
+    <div class="htmlContainer">
+        <div class="row g-0">
+            <!-- SIDE NAV -->
+            <div class="col-sm-5 col-md-3">
+                <side-nav></side-nav>
+            </div>
+            <!-- CONTENT -->
+            <div class="col-sm-12 col-md-9 col-lg-9 p-3">
+                <div class="basic-content">
+
+                    <div class="basic-header">
+                        <h1>HTML Basic Examples</h1>
+                        <div class="intro-pagination">
+                            <a href="html-editors.html">
+                                < Previous</a> <a href="html-elements.html">Next >
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="basic-panel">
+                        <span>In this chapter we will show some basic HTML examples.</span>
+                        <br />
+                        <br />
+                        <span>Don't worry if we use tags you have not learned about yet.</span>
+                    </div>
+
+                    <div class="html-document">
+                        <h3>HTML Documents</h3>
+                        <br />
+                        <span>All HTML documents must start with a document type declaration: <strong
+                                style="color: red; background-color: #ffcccb">&lt;!DOCTYPE html&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <span>The HTML document itself begins with <strong
+                                style="color: red; background-color: #ffcccb">&lt;html&gt;</strong> and
+                            ends with <strong
+                                style="color: red; background-color: #ffcccb">&lt;/html&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <span>The visible part of the HTML document is between<strong
+                                style="color: red; background-color: #ffcccb">&lt;body&gt;</strong> and <strong
+                                style="color: red; background-color: #ffcccb">&lt;/body&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <img src="./images/html-document-sample.png">
+                    </div>
+
+                    <div class="html-declaration">
+                        <h3>The <strong>&lt;!DOCTYPE&gt;</strong> Declaration</h3>
+                        <br />
+                        <span>The <strong style="color: red; background-color: #ffcccb">&lt;!DOCTYPE&gt;</strong>
+                            declaration represents the document type, and helps browsers to display web pages
+                            correctly.</span>
+                        <br />
+                        <br />
+                        <span>It must only appear once, at the top of the page (before any HTML tags).</span>
+                        <br />
+                        <br />
+                        <span>The <strong style="color: red; background-color: #ffcccb">&lt;!DOCTYPE&gt;</strong>
+                            declaration is not case sensitive.</span>
+                        <br />
+                        <br />
+                        <span>The <strong style="color: red; background-color: #ffcccb">&lt;!DOCTYPE&gt;</strong>
+                            declaration for HTML5 is:</span>
+                        <br />
+                        <br />
+                        <img src="./images/doctype-sample.png">
+                    </div>
+
+                    <div class="html-heading">
+                        <h3>HTML Headings</h3>
+                        <br />
+                        <span>HTML headings are defined with the <strong
+                                style="color: red; background-color: #ffcccb">&lt;h1&gt;</strong> to <strong
+                                style="color: red; background-color: #ffcccb">&lt;h6&gt;</strong> tags.</span>
+                        <br />
+                        <br />
+                        <span><strong style="color: red; background-color: #ffcccb">&lt;h1&gt;</strong> defines the most
+                            important heading. <strong style="color: red; background-color: #ffcccb">&lt;h6&gt;</strong>
+                            defines the least important heading: </span>
+                        <br />
+                        <br />
+                        <img src="./images/html-heading-sample.png">
+                    </div>
+
+                    <div class="html-paragraph">
+                        <h3>HTML Paragraphs</h3>
+                        <br />
+                        <span>HTML paragraphs are defined with the <strong
+                                style="color: red; background-color: #ffcccb">&lt;p&gt;</strong> tag:</span>
+                        <br />
+                        <br />
+                        <img src="./images/html-heading-sample.png">
+                    </div>
+
+                    <div class="html-link">
+                        <h3>HTML Links</h3>
+                        <br />
+                        <span>HTML links are defined with the <strong
+                                style="color: red; background-color: #ffcccb;">&lt;a&gt;</strong> tag:</span>
+                        <br />
+                        <br />
+                        <img src="./images/html-link-sample.png">
+                        <br />
+                        <br />
+                        <span>The link's destination is specified in the <span
+                                style="background-color: #ffcccb;">href</span> attribute.</span>
+                        <br />
+                        <br />
+                        <span>Attributes are used to provide additional information about HTML elements.</span>
+                        <br />
+                        <br />
+                        <span></span>You will learn more about attributes in a later chapter.</span>
+                    </div>
+
+                    <div class="html-image">
+                        <h3>HTML Images</h3>
+                        <br />
+                        <span>HTML links are defined with the <strong
+                                style="color: red; background-color: #ffcccb;">&lt;a&gt;</strong> tag:</span>
+                        <br />
+                        <br />
+                        <img src="./images/html-image-sample.png">
+                        <br />
+                        <br />
+                        <span>images are defined with the <strong
+                                style="color: red; background-color: #ffcccb;">&lt;img&gt;</strong> tag.</span>
+                        <br />
+                        <br />
+                        <span>Attributes are used to provide additional information about HTML elements.</span>
+                        <br />
+                        <br />
+                        <span></span>You will learn more about attributes in a later chapter.</span>
+                    </div>
+
+                    <div class="how-to-view-html-source">
+                        <h3>How to View HTML Source?</h3>
+                        <span>Have you ever seen a Web page and wondered "Hey! How did they do that?"</span>
+                        <br />
+                        <br />
+                        <h5>View HTML Source Code:</h5>
+                        <br />
+                        <span>Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in
+                            Edge), or similar in other browsers. This will open a window containing the HTML source code
+                            of the page.</span>
+                        <br />
+                        <br />
+                        <h5>Inspect an HTML Element:</h5>
+                        <br />
+                        <span>Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to
+                            see what elements are made up of (you will see both the HTML and the CSS). You can also edit
+                            the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</span>
+                    </div>
+
+                    <div class="intro-pagination">
+                        <a href="html-introduction.html">
+                            < Previous</a> <a href="html-basic.html">Next >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <my-footer></my-footer>
+
+
+    <script src="components/footer.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

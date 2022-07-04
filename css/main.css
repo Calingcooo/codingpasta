@@ -335,7 +335,10 @@ html {
 .intro-pagination {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
+
+
 
 .intro-pagination a {
     text-decoration: none;
@@ -396,7 +399,7 @@ html {
 /* HTML EDITOR CONTENT */
 
 .editor-header {
-    margin-bottom: 10px;
+    padding: 15px;
 }
 
 .editor-panel {
@@ -405,8 +408,47 @@ html {
     padding: 15px;
 }
 
-.editor-html {
+.editor-html, .editor-step-html, .write-html, .save-notepad, .view-html {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.write-html img {
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.save-notepad img {
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.view-html img {
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* HTML BASIC EXAMPLE CONTENT */
+
+.basic-header {
+    padding: 15px;
+}
+
+.basic-panel {
+    border-top: 1px solid rgb(177, 175, 175);
     border-bottom: 1px solid rgb(177, 175, 175);
     padding: 15px;
 }
 
+.html-document, .html-declaration, .html-heading, .html-paragraph, .html-link, .html-image, .how-to-view-html-source {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.html-document img, .html-declaration img, .html-heading img, .html-paragraph img, .html-link img, .html-image img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
