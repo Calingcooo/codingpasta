@@ -6,6 +6,41 @@
 
 /*START OF NAVBAR DESIGN*/
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+#login {
+    position: absolute;
+    top: 20%;
+}
+
+.fa-brands {
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.header {
+    color: rgb(231, 12, 96);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+input[type=checkbox] {
+    color: rgb(231, 12, 96);
+}
+
 .login-div {
     display: flex;
     flex-direction: row;
@@ -51,7 +86,6 @@ a.nav-link {
     display: flex;
     justify-content: center;
 }
-
 
 a.nav-link:focus, a.nav-link:hover {
     text-decoration: underline;

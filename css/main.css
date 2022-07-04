@@ -332,6 +332,7 @@ html {
 .intro-header {
     padding: 15px;
 }
+
 .intro-pagination {
     display: flex;
     justify-content: space-between;
@@ -359,7 +360,9 @@ html {
     margin-bottom: 10px;
 }
 
-.intro-html, .intro-example, .intro-element  {
+.intro-html,
+.intro-example,
+.intro-element {
     padding: 15px;
     border-bottom: 1px solid rgb(177, 175, 175);
 }
@@ -408,13 +411,18 @@ html {
     padding: 15px;
 }
 
-.editor-html, .editor-step-html, .write-html, .save-notepad, .view-html {
+.editor-html,
+.editor-step-html,
+.write-html,
+.save-notepad,
+.view-html {
     border-bottom: 1px solid rgb(177, 175, 175);
     padding: 15px;
     padding-bottom: 30px;
 }
 
 .write-html img {
+    width: 100%;
     border: 1px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -442,13 +450,43 @@ html {
     padding: 15px;
 }
 
-.html-document, .html-declaration, .html-heading, .html-paragraph, .html-link, .html-image, .how-to-view-html-source {
+.html-document,
+.html-declaration,
+.html-heading,
+.html-paragraph,
+.html-link,
+.html-image,
+.how-to-view-html-source {
     border-bottom: 1px solid rgb(177, 175, 175);
     padding: 15px;
     padding-bottom: 30px;
 }
 
-.html-document img, .html-declaration img, .html-heading img, .html-paragraph img, .html-link img, .html-image img {
+.html-document img,
+.html-declaration img,
+.html-heading img,
+.html-paragraph img,
+.html-link img,
+.html-image img {
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* HTML ELEMENT CONTENT*/
+
+.element-panel {
+    border-top: 1px solid rgb(177, 175, 175);
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
+.nested-html, .never-skip-end-tag, .empty-html, .not-case-sensitive {
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding: 15px;
+}
+
+.nested-html img, .never-skip-end-tag img, .empty-html img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

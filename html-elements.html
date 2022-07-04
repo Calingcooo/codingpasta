@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="components/nav.js"></script>
+    <script src="components/html-sidenav.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/navbar.css">
+    <link rel="stylesheet" href="css/components/sidenav.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+
+    <title>HTML Elements | Coding Pasta</title>
+</head>
+
+<body>
+    <!-- NAV-BAR -->
+    <nav-bar></nav-bar>
+    <div class="htmlContainer">
+        <div class="row g-0">
+            <!-- SIDE NAV -->
+            <div class="col-sm-5 col-md-3">
+                <side-nav></side-nav>
+            </div>
+            <!-- CONTENT -->
+            <div class="col-sm-12 col-md-9 col-lg-9 p-3">
+                <div class="intro-content">
+                    <div class="intro-header">
+                        <h1>HTML Elements</h1>
+                        <div class="intro-pagination">
+                            <a href="html-basic.html">
+                                < Previous</a> <a href="html-attribute.html">Next >
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="element-panel">
+                        <span>An HTML element is defined by a start tag, some content, and an end tag.</span>
+                    </div>
+
+                    <div class="intro-element">
+                        <h3>What is an HTML Element?</h3>
+                        <span>An HTML element is defined by a start tag, some content, and an end tag:</span>
+                        <h6 style="text-indent: 20px;"><strong
+                                style="color:red; background-color: #ffcccb">&lt;tagname&gt;</strong> Content goes
+                            here... <strong style="color:red;">&lt;/tagname&gt;</strong></h6><br />
+                        <span>The HTML element is everything from the start tag to the end tag:</span>
+
+                        <h6 style="text-indent: 20px;"><strong
+                                style="color:red; background-color: #ffcccb">&lt;h1&gt;</strong> My First Heading
+                            <strong style="color:red; background-color: #ffcccb;">&lt;/h1&gt;</strong></h6><br />
+                        <h6 style="text-indent: 20px;"><strong
+                                style="color:red; background-color: #ffcccb">&lt;p&gt;</strong> My first paragraph.
+                            <strong style="color:red; background-color: #ffcccb">&lt;/p&gt;</strong></h6><br />
+                        <img src="images/html-element-sample.png" style="width: 100%; border: 1px solid black;">
+                        <div id="note">
+                            <span><strong>Note:</strong> Some HTML elements have no content (like the &lt;br&gt;
+                                element). These elements are called empty elements. Empty elements do not have an end
+                                tag!</span>
+                        </div>
+                    </div>
+
+                    <div class="nested-html">
+                        <h3>Nested HTML Elements</h3>
+                        <br />
+                        <span>HTML elements can be nested (this means that elements can contain other elements).</span>
+                        <br />
+                        <br />
+                        <span>All HTML documents consist of nested HTML elements.</span>
+                        <br />
+                        <br />
+                        <span>The following example contains four HTML elements (<strong
+                                style="color:red; background-color: #ffcccb">&lt;html&gt;</strong>, <strong
+                                style="color:red; background-color: #ffcccb">&lt;body&gt;</strong>, <strong
+                                style="color:red; background-color: #ffcccb">&lt;h1&gt;</strong> and <strong
+                                style="color:red; background-color: #ffcccb">&lt;p&gt;</strong>):</span>
+                        <br />
+                        <br />
+                        <img src="./images/nested-html-sample.png">
+                        <br />
+                        <br />
+                        <h4>Example Explained</h4>
+                        <br />
+                        <span>The <strong style="color:red; background-color: #ffcccb">&lt;html&gt;</strong> element is
+                            the root element and it defines the whole HTML document.</span>
+                        <br />
+                        <br />
+                        <span>It has a start tag <strong
+                                style="color:red; background-color: #ffcccb">&lt;html&gt;</strong> and an end tag
+                            <strong style="color:red; background-color: #ffcccb">&lt;html&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <span>Then, inside the <strong
+                                style="color:red; background-color: #ffcccb">&lt;html&gt;</strong> element there is a
+                            <strong style="color:red; background-color: #ffcccb">&lt;body&gt;</strong> element:</span>
+                        <br />
+                        <br />
+                        <img src="./images/nested-html-explained.png">
+                        <br />
+                        <br />
+
+                        <span>The <strong style="color:red; background-color: #ffcccb">&lt;body&gt;</strong> element
+                            defines the document's body.</span>
+                        <br />
+                        <br />
+                        <span>It has a start tag <strong
+                                style="color:red; background-color: #ffcccb">&lt;body&gt;</strong> and an end tag
+                            <strong style="color:red; background-color: #ffcccb">&lt;/body&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <span>Then, inside the <strong
+                                style="color:red; background-color: #ffcccb">&lt;body&gt;</strong> element there are two
+                            other elements: <strong style="color:red; background-color: #ffcccb">&lt;h1&gt;</strong> and
+                            <strong style="color:red; background-color: #ffcccb">&lt;p&gt;</strong>:</span>
+                        <br />
+                        <br />
+                        <img src="./images/nested-html-explained2.png">
+                        <br />
+                        <br />
+                        <span>The <strong style="color:red; background-color: #ffcccb">&lt;h1&gt;</strong> element
+                            defines a heading.</span>
+                        <br />
+                        <br />
+                        <span>It has a start tag <strong
+                                style="color:red; background-color: #ffcccb">&lt;h1&gt;</strong> and an end tag <strong
+                                style="color:red; background-color: #ffcccb">&lt;/h1&gt;</strong>:</span>
+                        <br />
+                        <br />
+                        <img src="./images/nested-html-explained3.png">
+                        <br />
+                        <br />
+                        <span>The <strong style="color:red; background-color: #ffcccb">&lt;p&gt;</strong> element
+                            defines a paragraph.</span>
+                        <br />
+                        <br />
+                        <span>It has a start tag <strong style="color:red; background-color: #ffcccb">&lt;p&gt;</strong>
+                            and an end tag <strong
+                                style="color:red; background-color: #ffcccb">&lt;/p&gt;</strong>:</span>
+                        <br />
+                        <br />
+                        <img src="./images/nested-html-explained4.png">
+                    </div>
+
+                    <div class="never-skip-end-tag">
+                        <h3>Never Skip the End Tag</h3>
+                        <br />
+                        <span>Some HTML elements will display correctly, even if you forget the end tag:</span>
+                        <br />
+                        <br />
+                        <img src="./images/never-skip-tag-sample.png">
+                        <br />
+                        <br />
+                        <span><strong>However, never rely on this! Unexpected results and errors may occur if you forget
+                                the end tag!</strong></span>
+                    </div>
+
+                    <div class="empty-html">
+                        <h3>Empty HTML Elements</h3>
+                        <br />
+                        <span>HTML elements with no content are called empty elements.</span>
+                        <br />
+                        <br />
+                        <span>The <strong style="color:red; background-color: #ffcccb">&lt;br&gt;</strong> tag defines a
+                            line break, and is an empty element without a closing tag:</span>
+                        <br />
+                        <br />
+                        <img src="./images/empty-html-sample.png">
+                    </div>
+
+                    <div class="not-case-sensitive">
+                        <h3>HTML is Not Case Sensitive</h3>
+                        <span>HTML tags are not case sensitive: <strong
+                                style="color:red; background-color: #ffcccb">&lt;p&gt;</strong> means the same as
+                            <strong style="color:red; background-color: #ffcccb">&lt;/p&gt;</strong>.</span>
+                        <br />
+                        <br />
+                        <span>The HTML standard does not require lowercase tags, but W3C <strong>recommends</strong>
+                            lowercase in HTML, and <strong>demands</strong> lowercase for stricter document types like
+                            XHTML.</span>
+                    </div>
+                    <div id="note">
+                        <span>At CodingPasta we always use lowercase tag names.</span>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="intro-pagination"">
+                        <a href="html-basic.html">
+                        < Previous</a> <a href="html-attribute.html">Next >
+                            </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <my-footer></my-footer>
+
+
+
+
+
+
+
+    <script src="components/footer.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

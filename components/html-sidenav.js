@@ -24,7 +24,8 @@ customElements.define('side-nav', class extends HTMLElement {
                     <a href="./html-editors.html">HTML Editors</a>
                     <a href="./html-basic.html">HTML Basic</a>
                     <a href="./html-elements.html">HTML Elements</a>
-                    <a href="./html-attributes.html">HTML Attributes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Attributes</a>
                     <a class="coming-soon" data-toggle="tooltip"
                     title="Coming Soon!">HTML Quotation</a>
                     <a class="coming-soon" data-toggle="tooltip"
@@ -91,12 +92,55 @@ customElements.define('side-nav', class extends HTMLElement {
                     <br/>
                     <!-- HTML FORMS -->
                     <h3 class="title">HTML Forms</h3>
-                    <a href="#">HTML Forms</a>
-                    <a href="#">HTML Form Attributes</a>
-                    <a href="#">HTML Form Elements</a>
-                    <a href="#">HTML Input Types</a>
-                    <a href="#">HTML Input Attributes</a>
-                    <a href="#">HTML Input form* Attributes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Forms</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Form Attributes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Form Elements</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Input Types</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Input Attributes</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Input form* Attributes</a>
+
+                    <br/>
+                    <!-- HTML Graphics -->
+                    <h3 class="title">HTML Graphics</h3>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Canvas</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML SVG</a>
+
+                    <br/>
+                    <!-- HTML Media -->
+                    <h3 class="title">HTML Media</h3>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Media</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Video</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Audio</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Plug-ins</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Youtube</a>
+
+                    <br/>
+                    <!-- HTML API's -->
+                    <h3 class="title">HTML API's</h3>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Geolocation</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Drag & Drop</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Web Storage</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML Workers</a>
+                    <a class="coming-soon" data-toggle="tooltip"
+                    title="Coming Soon!">HTML SSE</a>
+
         </div>
             </section>`
     }
